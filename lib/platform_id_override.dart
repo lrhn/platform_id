@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-/// Provides access to information about the current platform.
-library pkg.platform_id;
+/// Provides a way to override information about the current platform.
+library pkg.platform_id.override;
 
-export "src/platform_id.dart" hide overridePlatform;
+export "src/platform_id.dart" show overridePlatform;
